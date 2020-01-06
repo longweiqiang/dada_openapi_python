@@ -14,7 +14,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "dada_openapi_client",
-    version = "0.0.3",
+    version = "1.0.0",
     keywords = ("pip", "dada", "openapi", "dadasdk", "dadasign"),
     description = "达达签名数据封装",
     long_description = long_description,
@@ -25,7 +25,6 @@ setuptools.setup(
     packages = setuptools.find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = ["hashlib"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
