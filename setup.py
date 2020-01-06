@@ -14,7 +14,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "dada_openapi_client",
-    version = "1.0.1",
+    version = "1.0.3",
     author = "Weiqiang.long",
     description = "达达签名数据封装",
     long_description = long_description,

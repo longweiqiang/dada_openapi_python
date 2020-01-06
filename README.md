@@ -11,3 +11,18 @@
 ```shell script
 pip install dada_openapi_client
 ```
+
+### 使用
+```python
+from dada_openapi_client.dada_client import DdMakeSign
+
+body = {
+    "source_id": "73753",
+    "v": "1.0",
+    "format": "json",
+    "body": "{\"order_id\":\"111111111\"}",
+    "timestamp": "1574927842"
+}
+d = DdMakeSign(appKey='dada11111111111', app_secret='111111111111111111111111')
+print(d.make_sign(body=body))
+```
