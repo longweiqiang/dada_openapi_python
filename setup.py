@@ -14,10 +14,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "dada_openapi_client",
-    version = "0.0.2",
+    version = "0.0.3",
     keywords = ("pip", "dada", "openapi", "dadasdk", "dadasign"),
     description = "达达签名数据封装",
-    long_description = "dada-sign sdk for python",
+    long_description = long_description,
     long_description_content_type="text/markdown",
     license = "MIT Licence",
     url = "https://github.com/longweiqiang/dada_openapi_python",
