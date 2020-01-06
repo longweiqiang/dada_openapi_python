@@ -14,17 +14,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "dada_openapi_client",
-    version = "1.0.0",
-    keywords = ("pip", "dada", "openapi", "dadasdk", "dadasign"),
+    version = "1.0.1",
+    author = "Weiqiang.long",
     description = "达达签名数据封装",
     long_description = long_description,
-    long_description_content_type="text/markdown",
-    license = "MIT Licence",
+    long_description_content_type = "text/markdown",
     url = "https://github.com/longweiqiang/dada_openapi_python",
-    author = "Weiqiang.long",
     packages = setuptools.find_packages(),
-    include_package_data = True,
-    platforms = "any",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
